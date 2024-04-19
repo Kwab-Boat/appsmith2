@@ -11,6 +11,10 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "Managers",
+      "isDefault": false
     }
   ],
   "viewMode": false,
