@@ -2,7 +2,7 @@
     "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{Post_User.run();\nnavigateTo('User Select', {}, 'SAME_WINDOW');}}",
+    "onSubmit": "{{Post_User.run();\nnavigateTo('Update Bio', {}, 'SAME_WINDOW');}}",
     "topRow": 0,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

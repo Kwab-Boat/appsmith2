@@ -1,6 +1,0 @@
-{
-    'user_first_name': {{User.formData.first_name}},
-    'user_last_name': {{User_Sign_In.formData.last_name}},
-    'user_email': {{User_Sign_In.formData.email}},
-    'user_bio': {{User_Sign_In.formData.bio}}
-}
