@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Delete Song",
+    "slug": "delete-song",
     "layouts": [
       {
         "viewMode": false,
@@ -28,15 +28,16 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Delete Song",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66223128235ab413b4197d6f_6622471c235ab413b4197d7f"
+  "gitSyncId": "66223128235ab413b4197d6f_6622526b235ab413b4197d86"
 }

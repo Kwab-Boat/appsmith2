@@ -9,7 +9,11 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Update Bio",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Song",
       "isDefault": false
     }
   ],

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User Select",
-    "slug": "user-select",
+    "name": "Update Bio",
+    "slug": "update-bio",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User Select",
+        "id": "Update Bio",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6621efa5235ab413b4197d43_66221f3f235ab413b4197d53"
+  "gitSyncId": "66223128235ab413b4197d6f_6622471c235ab413b4197d7f"
 }
