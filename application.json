@@ -11,6 +11,10 @@
     {
       "id": "Delete Song",
       "isDefault": false
+    },
+    {
+      "id": "Managers",
+      "isDefault": false
     }
   ],
   "viewMode": false,

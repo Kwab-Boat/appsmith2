@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Sign In",
-    "slug": "sign-in",
+    "name": "Managers",
+    "slug": "managers",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 500,
+          "bottomRow": 980,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 105,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 1070,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,20 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Sign In_get_user_by_email",
-              "name": "get_user_by_email",
+              "id": "Managers_get_all_contracts",
+              "name": "get_all_contracts",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "AlreadySignedIn.formData.email"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Sign In",
+        "id": "Managers",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -53,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6621efa5235ab413b4197d43_6621efa6235ab413b4197d45"
+  "gitSyncId": "6622350e1dc03a21113ee36a_662235141dc03a21113ee374"
 }
