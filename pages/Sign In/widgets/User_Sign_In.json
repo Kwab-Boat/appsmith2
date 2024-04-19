@@ -1,15 +1,13 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{Post_User.run().catch(() => {\n  postWindowMessage('Error', \"window\", \"*\");\n});\nnavigateTo('User Select', {}, 'SAME_WINDOW');}}",
-    "topRow": 1,
+    "onSubmit": "{{Post_User.run();\nnavigateTo('Update Bio', {}, 'SAME_WINDOW');}}",
+    "topRow": 0,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
         {"key": "resetButtonStyles.buttonColor"},
@@ -22,7 +20,8 @@
         {"key": "schema.__root_schema__.children.customField3.accentColor"},
         {"key": "schema.__root_schema__.children.customField3.borderRadius"},
         {"key": "schema.__root_schema__.children.customField4.accentColor"},
-        {"key": "schema.__root_schema__.children.customField4.borderRadius"}
+        {"key": "schema.__root_schema__.children.customField4.borderRadius"},
+        {"key": "backgroundColor"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -120,8 +119,8 @@
         }
     },
     "disabledWhenInvalid": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 50,
+    "borderRadius": "1.5rem",
+    "originalBottomRow": 49,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -248,7 +247,7 @@
     "sourceData": "",
     "resetButtonLabel": "Reset",
     "key": "c6qv35pbtp",
-    "backgroundColor": "#fff",
+    "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
     "isDeprecated": false,
     "rightColumn": 26,
     "widgetId": "wrbfi8r62w",
