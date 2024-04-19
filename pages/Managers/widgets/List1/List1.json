@@ -20,7 +20,7 @@
         {"key": "listData"}
     ],
     "leftColumn": 4,
-    "serverSidePagination": false,
+    "serverSidePagination": true,
     "enhancements": true,
     "children": [{
         "needsErrorInfo": false,
